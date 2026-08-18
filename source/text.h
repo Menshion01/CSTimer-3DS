@@ -1,7 +1,7 @@
 #ifndef TEXT_H
 #define TEXT_H
 
-#include <citro2D.h>
+//#include "citro2D.h"
 
 // extern float size;
 // extern C2D_TextBuf g_staticBuf;
