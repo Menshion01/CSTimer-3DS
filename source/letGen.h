@@ -2,6 +2,7 @@
 #define LETGEN_H
 
 extern int i;
+extern char modifiers[];
 extern char moves[];
 
 char *cubeMoves();
