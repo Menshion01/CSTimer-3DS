@@ -18,7 +18,7 @@ int main() {
 	
 	//Add the scramble to the text
 	addText(currentScramble, &g_scramble, scramble_Buf, 0);
-	addText("By Mason", &signature, sign_buf, 0);
+	// addText("By Mason", &signature, sign_buf, 0);
 
 	// Create screen(s)
 	C3D_RenderTarget *bot = C2D_CreateScreenTarget(GFX_BOTTOM, GFX_LEFT);

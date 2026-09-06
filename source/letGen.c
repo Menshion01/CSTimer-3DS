@@ -41,8 +41,9 @@ char *cubeMoves() {
             randomValue = rand() % 6;
             if (randomValue/2 == planeBuffer[0]/2) { // both sides in the buffer should result in the same plane
                 // 4/36: ~11.1% for it to choose the same plane again
-                // please refactor this if you know a way to guarentee it never chooses the same side again
-                randomValue = rand() % 6;
+                do {
+                    randomValue = rand() % 6;
+                } while (randomValue/2 == planeBuffer[0]/2);
             }
 
             side = moves[randomValue];

@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - "-I/opt/devkitpro/libctru/include"
+    - "-I/opt/devkitpro/citro2d/include"
+    - "-I/opt/devkitpro/citro3d/include"
+    - "-D__3DS__"
+    - "-march=armv6k"
+    - "-mtune=mpcore"
+    # - "-mfloat-abi=hard"
+
