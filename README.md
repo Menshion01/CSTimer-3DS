@@ -9,12 +9,11 @@ Install fontconfig and 3dsfont https://github.com/devkitPro/tex3ds/tree/feature/
 
 Find a font online such as monaco and run this to optomise the size:
 
-```pyftsubset monaco.ttf --text=". 0123456789 aof: DUFBRL ' " --output-file=monaco_digits.ttf
-```
+```pyftsubset monaco.ttf --text=". 0123456789 aof: DUFBRL ' " --output-file=monaco_digits.ttf```
+
 Run this to turn it into a font for 3ds, then move the output into romfs
 
-```mkbcfnt -o arial.bcfntx -s 48 monaco_digits.ttf
-```
+```mkbcfnt -o arial.bcfntx -s 48 monaco_digits.ttf```
 
 # BUILDING
 To build source code simply run make in the root, ensuring devkitpro resources are installed.
